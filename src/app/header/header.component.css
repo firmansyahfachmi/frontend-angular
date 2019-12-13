@@ -1,0 +1,63 @@
+.header {
+  display: flex;
+  align-content: center;
+}
+
+.search {
+  background-color: wheat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search > input {
+  border: none;
+  background-color: transparent;
+  width: 90%;
+  margin-right: 1.5em;
+  height: 100%;
+  color: brown;
+  outline: none;
+  font-weight: 500;
+}
+
+.search > span {
+  color: brown;
+}
+
+.search > input::placeholder {
+  color: brown;
+  font-weight: 500;
+}
+
+.upload {
+  background-color: wheat;
+  border: none;
+  color: brown;
+  font-weight: 600;
+  height: 100%;
+}
+
+.thumb {
+  display: flex;
+}
+
+.profile {
+  width: auto;
+  display: flex;
+}
+
+.imgProfile {
+  background-color: wheat;
+  border: none;
+  color: brown;
+  height: 100%;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.descProfile {
+  color: wheat;
+}
