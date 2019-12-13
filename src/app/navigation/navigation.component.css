@@ -1,0 +1,21 @@
+.bread {
+  display: flex;
+  list-style-type: none;
+  font-size: 18px;
+  font-weight: 400;
+  border-top: 1px solid rgb(244, 227, 207);
+  border-bottom: 1px solid rgb(244, 227, 207);
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.bread-item {
+  margin-left: 20px;
+  color: rgb(244, 227, 207);
+}
+
+.bread-item > a {
+  color: rgb(244, 227, 207);
+  text-decoration: none;
+  margin-right: 20px;
+}

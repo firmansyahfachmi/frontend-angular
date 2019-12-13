@@ -1,0 +1,31 @@
+.activity {
+  min-height: 620px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid rgb(244, 227, 207);
+}
+
+.carde:hover {
+  border: 2px solid rgb(244, 227, 207);
+}
+
+.carde {
+  height: 85px;
+  padding: 5px;
+  display: flex;
+  border: 2px solid transparent;
+}
+
+.img {
+  background-color: rgb(244, 227, 207);
+  width: 100px;
+  height: 70px;
+}
+
+.desc {
+  color: rgb(244, 227, 207);
+  margin-left: 10px;
+}
