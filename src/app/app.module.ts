@@ -8,6 +8,8 @@ import { VideosComponent } from './videos/videos.component';
 import { ActivityComponent } from './activity/activity.component';
 import { PeopleComponent } from './people/people.component';
 import { DocumentsComponent } from './documents/documents.component';
+import { ChannelsComponent } from './channels/channels.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { DocumentsComponent } from './documents/documents.component';
     VideosComponent,
     ActivityComponent,
     PeopleComponent,
-    DocumentsComponent
+    DocumentsComponent,
+    ChannelsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule

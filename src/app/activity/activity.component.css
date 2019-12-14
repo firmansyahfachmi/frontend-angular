@@ -14,7 +14,7 @@
 
 .carde {
   height: 85px;
-  padding: 5px;
+  padding: 5px 0 5px 5px;
   display: flex;
   border: 2px solid transparent;
 }
@@ -28,4 +28,17 @@
 .desc {
   color: rgb(244, 227, 207);
   margin-left: 10px;
+}
+
+.carde > button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: rgb(244, 227, 207);
+  display: none;
+  margin-top: -5px;
+}
+
+.carde:hover button {
+  display: block;
 }
